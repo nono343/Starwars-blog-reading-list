@@ -46,13 +46,13 @@ export const Planeta = () => {
             {planeta?.name}
           </h1>
           <p style={{ margin: "0", marginBottom: "4px" }}>
-            Height: {planeta?.height}
+            Rotation Period: {planeta?.rotation_period}
           </p>
           <p style={{ margin: "0", marginBottom: "4px" }}>
-            Mass: {planeta?.mass}
+            Diameter: {planeta?.diameter}
           </p>
           <p style={{ margin: "0", marginBottom: "16px" }}>
-            Hair Color: {planeta?.hair_color}
+            Climate: {planeta?.climate}
           </p>
           <Link to="/" style={{ textDecoration: "none" }}>
             <button
